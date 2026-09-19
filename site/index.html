@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="cartao">
+    <h1>Lista de Tarefas</h1>
+
+    <form id="form-tarefa" autocomplete="off">
+      <input id="titulo" type="text" placeholder="O que precisa ser feito?" aria-label="Nova tarefa" />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <p id="erro" class="erro" role="alert" hidden></p>
+
+    <ul id="lista"></ul>
+
+    <p id="contador" class="contador"></p>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
