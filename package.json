@@ -1,0 +1,8 @@
+{
+  "name": "site",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx serve site"
+  }
+}
